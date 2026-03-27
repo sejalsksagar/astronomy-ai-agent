@@ -1,9 +1,9 @@
-# Astronomy AI Agent
+# 🌌 Astronomy AI Agent
 
 An AI-powered astronomy assistant built using Google ADK and Gemini, deployed on Cloud Run using ADK’s web interface.
 
 ----------------------------------------
-OVERVIEW
+💡 OVERVIEW
 ----------------------------------------
 This agent explains astronomy concepts in simple, beginner-friendly language.
 
@@ -14,7 +14,7 @@ It uses:
 - Cloud Run for deployment
 
 ----------------------------------------
-FEATURES
+✨ FEATURES
 ----------------------------------------
 - Astronomy question answering
 - Simple explanations (<=150 words)
@@ -24,7 +24,7 @@ FEATURES
 - ADK Web UI (no FastAPI required)
 
 ----------------------------------------
-ARCHITECTURE
+🤖 ARCHITECTURE
 ----------------------------------------
 ```
 User (ADK Web UI)
@@ -43,7 +43,7 @@ Final Response
 ```
 
 ----------------------------------------
-TECH STACK
+🛠️ TECH STACK
 ----------------------------------------
 - Python
 - Google ADK
@@ -52,7 +52,7 @@ TECH STACK
 - Google Cloud Run
 
 ----------------------------------------
-REQUIREMENTS
+⚙️ REQUIREMENTS
 ----------------------------------------
 ```
 google-adk==1.14.0
@@ -61,11 +61,20 @@ wikipedia==1.4.0
 ```
 
 ----------------------------------------
-USAGE
+⚡ USAGE
 ----------------------------------------
 1. Open Cloud Run Service URL
 2. Use ADK Web Interface
 3. Enter query like:
    - What is a black hole?
    - Explain galaxies
+
+---
+## Track 1- Build and deploy AI agents using Gemini, ADK, and Cloud Run
+
+Build and deploy an ADK agent on Cloud Run
+
+[Codelabs 1: Build and deploy an ADK agent on Cloud Run | Google Codelabs](https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/5-deploying-agents/deploy-an-adk-agent-to-cloud-run#)
+
+---
 
